@@ -4,18 +4,22 @@
   "font_family": "JetBrains Mono",
   "theme": {
     "palette": "Base16",
-    "name": "Ashes",
-    "accent": "Base0D"
+    "name": "GoogleLight",
+    "accent": "Base05"
   },
+  "height": 30,
+  "transparency_alpha": 255,
   "left_widgets": [
     {
       "Komorebi": {
         "workspaces": {
           "enable": true,
-          "hide_empty_workspaces": false
+          "display":"Text",
+          "hide_empty_workspaces": true
         },
         "layout": {
-          "enable": true
+          "enable": true,
+          "display":"Icon"
         },
         "focused_window": {
           "enable": true,
@@ -32,36 +36,40 @@
     },
     {
       "Media": {
-        "enable": true
-      }
-    },
-    {
-      "Storage": {
-        "enable": true
-      }
-    },
-    {
-      "Memory": {
-        "enable": true
+        "enable": false
       }
     },
     {
       "Network": {
         "enable": true,
-        "show_total_data_transmitted": true,
-        "show_network_activity": true
+        "show_total_data_transmitted": false,
+        "show_network_activity": false
+      }
+    },
+    {
+      "Cpu": {
+        "enable": true,
+        "label_prefix":"Icon"
+      }
+    },
+    {
+      "Memory": {
+        "enable": true,
+        "label_prefix":"Icon"
       }
     },
     {
       "Date": {
         "enable": true,
-        "format": "DayDateMonthYear"
+        "format":"DayDateMonthYear",
+        "label_prefix":"None"
       }
     },
     {
       "Time": {
         "enable": true,
-        "format": "TwentyFourHour"
+        "format": "TwentyFourHourWithoutSeconds",
+        "label_prefix":"None"
       }
     },
     {

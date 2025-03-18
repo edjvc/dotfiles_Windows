@@ -3,56 +3,83 @@
   "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
-  "default_workspace_padding": 20,
-  "default_container_padding": 20,
+  "default_workspace_padding": 0,
+  "default_container_padding": 0,
   "border": true,
-  "border_width": 8,
+  "border_width": 5,
   "border_offset": -1,
+  "border_style": "System",
   "theme": {
     "palette": "Base16",
-    "name": "Ashes",
-    "unfocused_border": "Base03",
-    "bar_accent": "Base0D"
+    "name": "PrimerLight",
+    "unfocused_border": "Base00",
+    "single_border": "Base0C",
+    "stack_border": "Base0B",
+    "monocle_border": "Base0E",
+    "floating_border": "Base0A"
   },
   "stackbar": {
-    "height": 40,
-    "mode": "OnStack",
+    "height": 20,
+    "mode": "Never",
     "tabs": {
-      "width": 300
+      "width": 100
     }
   },
   "monitors": [
     {
       "workspaces": [
         {
-          "name": "I",
-          "layout": "BSP"
+          "name": "人1",
+          "layout": "Columns"
         },
         {
-          "name": "II",
-          "layout": "VerticalStack"
+          "name": "人2",
+          "layout": "Columns"
         },
         {
-          "name": "III",
-          "layout": "HorizontalStack"
+          "name": "人3",
+          "layout": "Columns"
         },
         {
-          "name": "IV",
-          "layout": "UltrawideVerticalStack"
+          "name": "人4",
+          "layout": "Columns"
         },
         {
-          "name": "V",
-          "layout": "Rows"
+          "name": "天1",
+          "layout": "Columns"
         },
         {
-          "name": "VI",
-          "layout": "Grid"
+          "name": "天2",
+          "layout": "Columns"
         },
         {
-          "name": "VII",
-          "layout": "RightMainVerticalStack"
+          "name": "天3",
+          "layout": "Columns"
+        },
+        {
+          "name": "天4",
+          "layout": "Columns"
+        },
+        {
+          "name": "地1",
+          "layout": "Columns"
+        },
+        {
+          "name": "地2",
+          "layout": "Columns"
+        },
+        {
+          "name": "地3",
+          "layout": "Columns"
+        },
+        {
+          "name": "地4",
+          "layout": "Columns"
         }
       ]
     }
-  ]
+  ],
+  "mouse_follows_focus": false,
+  "transparency": false,
+  "transparency_alpha": 230
 }
