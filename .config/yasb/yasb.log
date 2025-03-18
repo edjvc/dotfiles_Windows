@@ -6754,3 +6754,12 @@ KeyError: 'toggle_label_alt'
 2025-03-18 19:48:13 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
 2025-03-18 19:48:27 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
 2025-03-18 19:48:42 INFO bar_manager.py:46: Successfully loaded updated stylesheet and applied to all bars.
+2025-03-18 20:10:16 INFO log.py:21: Yasb v1.6.5
+2025-03-18 20:10:16 DEBUG win32.py:55: Looking up time zone info from registry
+2025-03-18 20:10:16 INFO app_bar.py:103: Bar Created on Screen: BenQ EW2480 [Bar Height: 26px, DPI Scale: 1.0, Scale Screen: True, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-03-18 20:10:18 INFO event_listener.py:52: Created named pipe yasb-f524ab31-03f1-11f0-b13b-0a624011268d
+2025-03-18 20:10:18 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f524ab31-03f1-11f0-b13b-0a624011268d
+2025-03-18 20:10:18 INFO watcher.py:39: Created file watcher for path C:\Users\User\.config\yasb
+2025-03-18 20:10:18 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-03-18 20:10:18 DEBUG _windows.py:192: Thread started
+2025-03-18 20:10:18 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f524ab31-03f1-11f0-b13b-0a624011268d
