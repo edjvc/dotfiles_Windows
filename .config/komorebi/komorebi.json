@@ -79,6 +79,13 @@
       ]
     }
   ],
+  "manage_rules": [
+    {
+      "kind": "Title",
+      "id": "富途牛牛",
+      "matching_strategy": "Equals"
+    }
+  ],
   "mouse_follows_focus": false,
   "transparency": false,
   "transparency_alpha": 230
